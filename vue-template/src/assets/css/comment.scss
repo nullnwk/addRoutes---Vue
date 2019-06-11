@@ -1,0 +1,140 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: '微软雅黑';
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+img {
+  border: 0px;
+}
+
+// @font-face {
+//   font-family: 'iconfont';
+//   src: url('../iconfont/iconfont.eot');
+//   src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+//     url('../iconfont/iconfont.woff') format('woff'),
+//     url('../iconfont/iconfont.ttf') format('truetype'),
+//     url('../iconfont/iconfont.svg#iconfont') format('svg');
+// }
+
+// .iconfont {
+//   font-family: iconfont;
+// }
+
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+// 清除浮动
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+// 固定宽度
+.w {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+a,
+input,
+button {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(226, 74, 94)
+}
+
+// 单行文本显示...    数字管用
+.single-line-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 多行文本显示...    数字不管用
+.multi-line-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+}
