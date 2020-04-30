@@ -15,7 +15,7 @@
     "core-js": "^2.6.5",
     "i": "^0.3.6",
     "install": "^0.12.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "sass-resources-loader": "^2.0.0",
     "scss": "^0.2.4",
     "semver": "^6.0.0",
